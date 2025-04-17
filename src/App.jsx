@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import SignUpForm from './components/SignupForm'
+import SignUpForm from './components/SignUpForm.jsx'
 
 
 function App() {
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
