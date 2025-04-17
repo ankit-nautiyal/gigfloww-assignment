@@ -100,7 +100,7 @@ Please ensure your code follows the project’s coding style and includes releva
 
 ## Troubleshooting
 
-- **Dependencies**: Run `npm install` to ensure all dependencies (e.g., `@mui/material`, `react-toastify`) are installed.
+- **Dependencies**: Run `npm install` to ensure all dependencies (e.g., `@mui/material`) are installed.
 - **Vite Port**: If `http://localhost:5173` is in use, Vite will prompt for an alternative port.
 
 
