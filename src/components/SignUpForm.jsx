@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, TextField, Select, MenuItem, Button, Typography, Box } from '@mui/material';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import '../styles/SignupForm.css';
+import '../styles/SignUpForm.css';
 
 const skillCategories = ['Graphic Design', 'Web Development', 'Writing', 'Photography', 'Video Editing', 'Other'];
 
