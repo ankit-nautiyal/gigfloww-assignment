@@ -1,119 +1,107 @@
-Gig Worker Sign-Up Form
+
+# Gig Worker Sign-Up Form
+
+## Description
+
+This is a React-based sign-up form designed for gig workers to join a platform. The form allows users to input their Name, Email, Skill Category, and Portfolio Link, with robust client-side validation and a user-friendly interface. Key features include:
+
+- **Input Fields**: Name (text), Email (email validation), Skill Category (dropdown with an "Other" option), and Portfolio Link (URL validation).
+- **Custom Skill Option**: Selecting "Other" in Skill Category reveals a text field to specify a custom skill.
+- **Validation**: Ensures all fields are filled correctly, with real-time error messages for invalid inputs (e.g., invalid email or URL formats).
+- **Success Notification**: Displays a thank-you message upon successful submission.
+- **Responsive Design**: Built with Material-UI for a modern, accessible, and mobile-friendly UI.
+
+## Proejct Snapshots:
+
+![image](https://github.com/user-attachments/assets/9464c5d6-c17d-49d3-bf7a-43ed380bc235)
+![image](https://github.com/user-attachments/assets/bf22ea32-c9bc-4728-9a00-d724e7c536af)
+![image](https://github.com/user-attachments/assets/619668fa-bcdc-419b-8919-b811df9472a5)
+![image](https://github.com/user-attachments/assets/6f745869-af37-4c7c-9c23-4b7849561626)
+![image](https://github.com/user-attachments/assets/c4cd5637-c8ae-4ffe-8a88-1b94dbe0a9dd)
+![image](https://github.com/user-attachments/assets/a586f532-3a40-4ca3-9652-0d82ea87f9d9)
+![image](https://github.com/user-attachments/assets/9f7fa13f-c87a-4e4f-afd9-67b022e79bfc)
 
 
 
+## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/ankit-nautiyal/gigfloww-assignment.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd gig-worker-signup
+   ```
+
+3. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the Development Server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   This will start the Vite development server, typically at `http://localhost:5173`.
+
+## Usage
+
+1. Open your browser and navigate to `http://localhost:5173`.
+2. Fill out the form:
+   - **Name**: Enter your full name.
+   - **Email**: Provide a valid email address.
+   - **Skill Category**: Select from predefined options (e.g., Graphic Design, Web Development) or choose "Other" to specify a custom skill.
+   - **Portfolio Link**: Enter a valid URL to your portfolio.
+3. Submit the form:
+   - If validation passes, a success toast will appear, followed by a thank-you message.
+   - If validation fails, error messages will display below the relevant fields.
+
+## Technologies Used
+
+- **React**: Frontend library for building the UI.
+- **Vite**: Build tool for fast development and production builds.
+- **Material-UI (MUI)**: Component library for responsive and accessible design.
+- **JavaScript/ES Modules**: For logic and validation.
+- **CSS**: Custom styles for layout adjustments.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. Make your changes and commit them with clear messages:
+
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+
+4. Push to your branch:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. Open a pull request on GitHub, describing your changes.
+
+Please ensure your code follows the project’s coding style and includes relevant tests if applicable.
+
+## Troubleshooting
+
+- **Dependencies**: Run `npm install` to ensure all dependencies (e.g., `@mui/material`, `react-toastify`) are installed.
+- **Vite Port**: If `http://localhost:5173` is in use, Vite will prompt for an alternative port.
 
 
-A responsive and user-friendly sign-up form built with React and Material-UI for gig workers to join a freelancing platform. The form includes client-side validation, a dynamic skill selector, and a success notification system powered by react-toastify.
-
-Features
-Form Fields:
-Name: Text input for the worker's full name.
-Email: Validated email input (e.g., user@example.com).
-Skill Category: Dropdown with options like Graphic Design, Web Development, and an Other option that triggers a custom skill input.
-Portfolio Link: URL input with validation (e.g., https://your-portfolio.com).
-Dynamic Input: Selecting Other in Skill Category reveals a text field to specify a custom skill.
-Validation: Real-time error messages for:
-Empty or invalid fields.
-Incorrect email formats.
-Invalid URLs.
-Notifications: A react-toastify success toast displays on valid submission, followed by a thank-you page.
-Design: Material-UI ensures a modern, mobile-friendly interface.
-Installation
-Follow these steps to set up the project locally:
-
-Clone the repository:
-bash
-
-Copy
-git clone https://github.com/your-username/gig-worker-signup.git
-Navigate to the project directory:
-bash
-
-Copy
-cd gig-worker-signup
-Install dependencies:
-bash
-
-Copy
-npm install
-Start the development server:
-bash
-
-Copy
-npm run dev
-The application will be available at http://localhost:5173.
-
-Usage
-Open http://localhost:5173 in your browser.
-Fill out the form:
-Name: Enter your full name (e.g., John Doe).
-Email: Provide a valid email (e.g., john.doe@example.com).
-Skill Category: Choose from the dropdown or select Other to enter a custom skill (e.g., UI/UX Design).
-Portfolio Link: Input a valid URL (e.g., https://johns-portfolio.com).
-Click the Sign Up button:
-Success: A toast notification will appear, followed by a thank-you message.
-Error: Validation errors will display below the relevant fields.
-Technologies
-Technology	Version	Purpose
-React	18.2.0	Frontend UI framework
-Vite	4.3.9	Build tool and dev server
-Material-UI	5.15.0	UI components and styling
-react-toastify	9.1.3	Success notifications
-Additional tools:
-
-JavaScript/ES Modules: For logic and validation.
-CSS: Custom styles for layout tweaks.
-Contributing
-We welcome contributions to enhance the project! To contribute:
-
-Fork the repository.
-Create a new branch:
-bash
-
-Copy
-git checkout -b feature/your-feature-name
-Make your changes and commit:
-bash
-
-Copy
-git commit -m "Implement your feature"
-Push to your branch:
-bash
-
-Copy
-git push origin feature/your-feature-name
-Open a pull request on GitHub with a clear description.
-Guidelines:
-
-Follow the project's coding style.
-Add tests for new features.
-Ensure commits are descriptive.
-Troubleshooting
-Build Error: If you encounter Could not resolve "./components/SignupForm" from "src/App.jsx":
-Verify SignUpForm.jsx is in the src directory.
-Ensure App.jsx imports it correctly:
-jsx
-
-Copy
-import SignUpForm from './SignUpForm';
-Test the build locally:
-bash
-
-Copy
-npm run build
-Dependency Issues:
-Clear cache and reinstall:
-bash
-
-Copy
-rm -rf node_modules package-lock.json
-npm install
-Port Conflicts: If http://localhost:5173 is unavailable, Vite will prompt for a different port.
-For other issues, check the Issues tab on GitHub.
-
-License
-This project is licensed under the MIT License. See the  file for details.
-
-Feedback
-Have suggestions or found a bug? Open an issue on the GitHub repository.
