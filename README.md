@@ -11,11 +11,10 @@ This is a React-based sign-up form designed for gig workers to join a platform. 
 - **Success Notification**: Displays a thank-you message upon successful submission.
 - **Responsive Design**: Built with Material-UI for a modern, accessible, and mobile-friendly UI.
 
-## Proejct Snapshots:
+## Project Snapshots:
 
 ![image](https://github.com/user-attachments/assets/9464c5d6-c17d-49d3-bf7a-43ed380bc235)
 ![image](https://github.com/user-attachments/assets/bf22ea32-c9bc-4728-9a00-d724e7c536af)
-![image](https://github.com/user-attachments/assets/619668fa-bcdc-419b-8919-b811df9472a5)
 ![image](https://github.com/user-attachments/assets/6f745869-af37-4c7c-9c23-4b7849561626)
 ![image](https://github.com/user-attachments/assets/c4cd5637-c8ae-4ffe-8a88-1b94dbe0a9dd)
 ![image](https://github.com/user-attachments/assets/a586f532-3a40-4ca3-9652-0d82ea87f9d9)
